@@ -10,3 +10,58 @@ compile_commands.json
 CTestTestfile.cmake
 _deps
 .DS_Store
+
+# Ignore CLion project files
+.idea/
+*.iml
+
+# Ignore CMake build files
+cmake-build-debug/
+cmake-build-release/
+CMakeFiles/
+
+# Ignore build directories
+/build/
+/dist/
+/bin/
+/lib/
+
+# Ignore compiled object files
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.lib
+
+# Ignore executable files
+*.exe
+*.out
+*.app
+*.i*
+
+# Ignore dynamic/shared library files
+*.dll
+*.so
+*.dylib
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Ignore generated files by CLion (optional)
+.vscode/
+external/
+debug/
+release/
+
+# Ignore code coverage reports
+*.gcda
+*.gcno
+*.gcov
+
+# Ignore backup/swap files
+*~
+*.swp
+
